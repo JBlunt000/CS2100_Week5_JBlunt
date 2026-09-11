@@ -1,7 +1,5 @@
 body {
-    background-color: #90C7E3;
-    background-image: linear-gradient(to bottom, #FFFFFF, #90C7E3);
-    background-repeat: no-repeat;
+    background-color: #EAEAEA;
     color: #666666;
     font-family: Verdana, Arial, sans-serif;
 }
@@ -10,10 +8,7 @@ header {
     background-color: #002171;
     color: #FFFFFF;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-image: url('sunset.jpg');
-    background-repeat: no-repeat;
-    background-position: right;
-    height: 72px;
+    height: 120px;
 }
 
 h1 {
@@ -53,6 +48,7 @@ footer {
 
 #wrapper {
     width: 80%;
+    background-image: linear-gradient(to bottom, #FFFFFF, #90C7E3);
     background-color: #FFFFFF;
     min-width: 960px;
     max-width: 2048px;
@@ -94,4 +90,8 @@ main {
 
 nav a {
     text-decoration: none;
+}
+
+* {
+    box-sizing: border-box;
 }
