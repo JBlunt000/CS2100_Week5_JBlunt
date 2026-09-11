@@ -100,3 +100,15 @@ nav a {
 * {
     box-sizing: border-box;
 }
+
+nav a:link {
+    color: #5C7FA3
+}
+
+nav a:visited {
+    color: #344873
+}
+
+nav a:hover {
+    color: #A52A2a
+}
