@@ -51,6 +51,8 @@ footer {
     font-style: italic;
     text-align: center;
     padding: 1em;
+    background-color: #FFFFFF;
+    margin-left: 170px;
 }
 
 #wrapper {
