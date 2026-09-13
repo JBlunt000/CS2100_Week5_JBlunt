@@ -134,3 +134,19 @@ section {
     padding-left: 2em;
     padding-right: 2em;
 }
+
+header a {
+    text-decoration: none;
+}
+
+header a:link {
+    color: #FFFFFF;
+}
+
+header a:visited {
+    color: #FFFFFF;
+}
+
+header a:hover {
+    color: #90C7E3;
+}
