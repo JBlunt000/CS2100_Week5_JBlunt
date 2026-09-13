@@ -127,3 +127,10 @@ nav ul {
     list-style-type: none;
     padding-left: 1em;
 }
+
+section {
+    float: left;
+    width: 33%;
+    padding-left: 2em;
+    padding-right: 2em;
+}
