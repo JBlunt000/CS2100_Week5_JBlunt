@@ -27,6 +27,8 @@ nav {
     width: 160px;
     padding: 0;
     font-size: 1.2em;
+    position: fixed;
+    z-index: 9999;
 }
 
 h2 {
@@ -70,6 +72,9 @@ main {
     padding-left: 2em;
     padding-right: 2em;
     display: block;
+    background-color: #FFFFFF;
+    margin-left: 170px;
+    overflow: auto;
 }
 
 #homehero {
@@ -111,4 +116,9 @@ nav a:visited {
 
 nav a:hover {
     color: #A52A2a
+}
+
+nav ul {
+    list-style-type: none;
+    padding-left: 1em;
 }
